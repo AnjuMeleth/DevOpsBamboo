@@ -1,0 +1,27 @@
+ mkdir bamboo
+ mkdir bamboo-home
+  ls
+  mv atlassian-bamboo-7.1.2.tar.gz ./bamboo
+  ls
+  cd bamboo/
+  tar -xvf atlassian-bamboo-7.1.2.tar.gz
+  ls
+  cd atlassian-bamboo-7.1.2/
+   ls
+   cd atlassian-bamboo/
+  ls
+  cd WEB-INF/
+  ls
+   cd classes/
+  ls
+    sudo vi bamboo-init.properties
+    # edit the bamboo-home=/home/ubuntu/bamboo-home
+   cd ../../../
+  sudo apt-get update
+   sudo apt-get install openjdk-8-jdk
+     java -version
+   ./bin/start-bamboo.sh
+   
+   # goto https://my.atlassian.com/license/evaluation for generating trial license for 30 days. Give the server ID that you can get from http://<IP address>:8085
+   # give the license in the link
+   
