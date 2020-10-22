@@ -21,6 +21,8 @@
   sudo apt-get update
    sudo apt-get install openjdk-8-jdk
      java -version
+     cd atlassian-bamboo-7.1.2/
+
    ./bin/start-bamboo.sh
    
    # goto https://my.atlassian.com/license/evaluation for generating trial license for 30 days. Give the server ID that you can get from http://<IP address>:8085
