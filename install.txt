@@ -25,7 +25,7 @@
      cd atlassian-bamboo-7.1.2/
 
    ./bin/start-bamboo.sh
-   
+   # for logs refer : /home/ubuntu/bamboo/atlassian-bamboo-7.1.2/logs/catalina.out
    # goto https://my.atlassian.com/license/evaluation for generating trial license for 30 days. Give the server ID that you can get from http://<IP address>:8085
    # give the license in the link
    # https://confluence.atlassian.com/bamboo/running-the-setup-wizard-289276851.html
