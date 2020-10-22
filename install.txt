@@ -1,3 +1,4 @@
+ #https://www.atlassian.com/software/bamboo/download
  mkdir bamboo
  mkdir bamboo-home
   ls
